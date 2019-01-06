@@ -25,7 +25,7 @@ SECRET_KEY = ')m)=p-@j_6eg(bwav)zawi)uj+ze-(0vmbokg!7jp03*3rxn1l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -123,4 +123,3 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'mfdw_site/static'),
 ]
-

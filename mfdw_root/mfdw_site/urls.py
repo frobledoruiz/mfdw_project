@@ -21,3 +21,6 @@ urlpatterns = [
     path('', include('pages.urls')),
 ]
 
+# Customize header and title of Django Administration
+admin.site.site_header = 'Administration Panel'
+admin.site.site_title = 'Admin Panel'
